@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main container for the to-do list app -->
+    <div class="container">
+        <div class="todo-app">
+            <!-- Heading for the to-do list with an icon -->
+            <h2>To-Do List <img src="images/icon.png"></h2>
+            <!-- Row containing input box and button for adding tasks -->
+            <div class="row">
+                <!-- Input box for entering task text -->
+                <input type="text" id="input-box" placeholder="Add your text">
+                <!-- Button to trigger the 'addTask' function -->
+                <button onclick="addTask()">Add</button>
+            </div>
+            <!-- List container for displaying tasks -->
+            <ul id="list-container">
+                <!-- List items (tasks) will be dynamically added here -->
+            </ul>
+        </div>
+    </div>
+    <!-- Link to external JavaScript file for functionality -->
+    <script src="script.js"></script>
+</body>
+</html>
